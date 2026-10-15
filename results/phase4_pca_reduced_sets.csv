@@ -1,0 +1,4 @@
+set,n_components,train_shape,retained_variance,reduction_vs_561
+pca_elbow,3,"(5551, 3)",0.6015506,99.5%
+pca_90,61,"(5551, 61)",0.9003439,89.1%
+pca_95,100,"(5551, 100)",0.95072955,82.2%

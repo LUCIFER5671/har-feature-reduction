@@ -1,0 +1,562 @@
+rank,feature,importance,cumulative_importance,domain,signal,axis
+1,tGravityAcc-mean()-X,0.03431867646943075,0.03431867646943075,time,gravity acc,X
+2,tGravityAcc-min()-X,0.031125458750313143,0.06544413521974389,time,gravity acc,X
+3,"angle(X,gravityMean)",0.0287123879686304,0.0941565231883743,angle,angle,X
+4,tGravityAcc-energy()-X,0.025609142409273544,0.11976566559764784,time,gravity acc,X
+5,tGravityAcc-mean()-Y,0.02517412350814465,0.1449397891057925,time,gravity acc,Y
+6,tGravityAcc-min()-Y,0.021794443738613438,0.16673423284440594,time,gravity acc,Y
+7,tGravityAcc-max()-X,0.02151889326900312,0.18825312611340905,time,gravity acc,X
+8,tGravityAcc-max()-Y,0.02057253396832367,0.20882566008173273,time,gravity acc,Y
+9,"angle(Y,gravityMean)",0.01957930825957432,0.22840496834130705,angle,angle,Y
+10,tGravityAcc-energy()-Y,0.014635537732459056,0.2430405060737661,time,gravity acc,Y
+11,tGravityAcc-min()-Z,0.012208074553131056,0.25524858062689715,time,gravity acc,Z
+12,"fBodyAccJerk-bandsEnergy()-1,16",0.011528522306080957,0.2667771029329781,frequency,body acc,X
+13,tGravityAcc-energy()-Z,0.010467864777960838,0.277244967710939,time,gravity acc,Z
+14,tGravityAcc-mean()-Z,0.009899649803935845,0.28714461751487486,time,gravity acc,Z
+15,fBodyAccJerk-max()-X,0.009738494787464117,0.296883112302339,frequency,body acc,X
+16,tBodyAccMag-mad(),0.009383134028350103,0.3062662463306891,time,body acc,none
+17,"angle(Z,gravityMean)",0.009359711419606832,0.31562595775029595,angle,angle,Z
+18,tBodyAccMag-std(),0.00927958303147522,0.32490554078177114,time,body acc,none
+19,fBodyAcc-mad()-X,0.009207214899754828,0.334112755681526,frequency,body acc,X
+20,fBodyAccJerk-mean()-X,0.009028696378234242,0.3431414520597602,frequency,body acc,X
+21,tGravityAcc-max()-Z,0.008823027031046852,0.3519644790908071,time,gravity acc,Z
+22,tBodyAcc-max()-X,0.00864851139436614,0.3606129904851732,time,body acc,X
+23,fBodyAccMag-mad(),0.00824713969438088,0.3688601301795541,frequency,body acc,none
+24,tBodyAccJerk-std()-X,0.008203210392920046,0.37706334057247415,time,body acc,X
+25,tGravityAccMag-std(),0.007824073331176105,0.3848874139036503,time,gravity acc,none
+26,fBodyAccMag-std(),0.007679398535206643,0.39256681243885694,frequency,body acc,none
+27,"fBodyAccJerk-bandsEnergy()-1,8",0.007586802074083976,0.4001536145129409,frequency,body acc,X
+28,fBodyAccJerk-energy()-X,0.007381622941895163,0.40753523745483605,frequency,body acc,X
+29,fBodyAccMag-energy(),0.007287821659482543,0.4148230591143186,frequency,body acc,none
+30,"tGravityAcc-arCoeff()-Z,2",0.007132592013447039,0.4219556511277656,time,gravity acc,Z
+31,"tGravityAcc-arCoeff()-Z,3",0.00696995930894184,0.42892561043670746,time,gravity acc,Z
+32,tBodyAccJerk-iqr()-X,0.006895816224327897,0.43582142666103535,time,body acc,X
+33,"tGravityAcc-arCoeff()-Z,1",0.006815493201393283,0.44263691986242865,time,gravity acc,Z
+34,fBodyGyro-maxInds-Z,0.006809467613938567,0.4494463874763672,frequency,gyroscope,Z
+35,"tGravityAcc-arCoeff()-Y,2",0.00680896898994826,0.4562553564663155,time,gravity acc,Y
+36,"tGravityAcc-arCoeff()-Y,1",0.006759911693887359,0.46301526816020283,time,gravity acc,Y
+37,"fBodyAcc-bandsEnergy()-1,16",0.0065610661350057825,0.4695763342952086,frequency,body acc,X
+38,tBodyAccJerkMag-sma(),0.006323325876588996,0.47589966017179763,time,body acc,none
+39,"tGravityAcc-arCoeff()-X,1",0.006218444351102058,0.4821181045228997,time,gravity acc,X
+40,tBodyAccJerkMag-iqr(),0.005898283445923432,0.48801638796882313,time,body acc,none
+41,fBodyAccMag-mean(),0.005778821077113737,0.4937952090459369,frequency,body acc,none
+42,tBodyAcc-std()-X,0.005767434379745132,0.499562643425682,time,body acc,X
+43,"fBodyAcc-bandsEnergy()-1,8",0.005765067303246917,0.5053277107289289,frequency,body acc,X
+44,tBodyAccJerkMag-mad(),0.005604598051703389,0.5109323087806323,time,body acc,none
+45,fBodyAccJerk-sma(),0.005533521612342296,0.5164658303929747,frequency,body acc,none
+46,fBodyAccJerk-std()-X,0.0054066328321963385,0.521872463225171,frequency,body acc,X
+47,"tGravityAcc-arCoeff()-X,2",0.00538188247780355,0.5272543457029746,time,gravity acc,X
+48,fBodyAccMag-sma(),0.00528954057437059,0.5325438862773452,frequency,body acc,none
+49,tBodyGyroJerk-sma(),0.005277638037446047,0.5378215243147912,time,gyroscope,none
+50,tBodyGyroJerk-iqr()-Z,0.00517489547051618,0.5429964197853074,time,gyroscope,Z
+51,tBodyAcc-energy()-X,0.004999130516274266,0.5479955503015818,time,body acc,X
+52,tBodyAccMag-arCoeff()1,0.004991777835070464,0.5529873281366522,time,body acc,none
+53,tGravityAccMag-arCoeff()1,0.0048369740631953135,0.5578243021998475,time,gravity acc,none
+54,tBodyAccJerk-max()-X,0.004789022110089149,0.5626133243099366,time,body acc,X
+55,"fBodyAccJerk-bandsEnergy()-1,24",0.004779739000556352,0.567393063310493,frequency,body acc,X
+56,"tGravityAcc-arCoeff()-Y,3",0.0047633661100630375,0.572156429420556,time,gravity acc,Y
+57,"fBodyAcc-bandsEnergy()-1,24",0.004651928767572191,0.5768083581881281,frequency,body acc,X
+58,tBodyAccJerk-energy()-X,0.0046312588117351896,0.5814396169998634,time,body acc,X
+59,tBodyAccJerk-mad()-X,0.004576257612478549,0.586015874612342,time,body acc,X
+60,tBodyAccJerk-sma(),0.004445084486329167,0.5904609590986711,time,body acc,none
+61,"fBodyAccJerk-bandsEnergy()-9,16",0.0044178513631934,0.5948788104618645,frequency,body acc,X
+62,tBodyAccJerkMag-mean(),0.004413592125332293,0.5992924025871968,time,body acc,none
+63,tBodyAcc-mad()-X,0.004364314314114867,0.6036567169013117,time,body acc,X
+64,tGravityAccMag-mad(),0.004311101330139144,0.6079678182314509,time,gravity acc,none
+65,fBodyAcc-std()-X,0.004124846736007186,0.6120926649674581,frequency,body acc,X
+66,fBodyAcc-energy()-X,0.004099295456129037,0.6161919604235871,frequency,body acc,X
+67,fBodyAccJerk-entropy()-X,0.004061140339533773,0.6202531007631209,frequency,body acc,X
+68,tBodyAccJerk-entropy()-X,0.0039796097911054375,0.6242327105542264,time,body acc,X
+69,"tGravityAcc-arCoeff()-Z,4",0.003937422632694835,0.6281701331869212,time,gravity acc,Z
+70,fBodyAcc-mean()-X,0.0039140784338274216,0.6320842116207486,frequency,body acc,X
+71,"fBodyAcc-bandsEnergy()-9,16",0.003903014337609937,0.6359872259583585,frequency,body acc,X
+72,"tBodyAcc-correlation()-X,Y",0.0038268945972154407,0.639814120555574,time,body acc,"X,Y"
+73,fBodyAccJerk-mad()-X,0.0037984746135274632,0.6436125951691014,frequency,body acc,X
+74,tGravityAcc-sma(),0.003735793396316375,0.6473483885654178,time,gravity acc,none
+75,fBodyGyro-meanFreq()-X,0.0036513424902434033,0.6509997310556612,frequency,gyroscope,X
+76,fBodyAcc-sma(),0.0036424275592339983,0.6546421586148953,frequency,body acc,none
+77,fBodyAcc-max()-X,0.0036251648059733295,0.6582673234208686,frequency,body acc,X
+78,"fBodyAccJerk-bandsEnergy()-1,16_2",0.003583979839326748,0.6618513032601954,frequency,body acc,Y
+79,tBodyAccJerk-iqr()-Y,0.003566517783728454,0.6654178210439238,time,body acc,Y
+80,tBodyGyroJerk-mad()-Z,0.003446904460666409,0.6688647255045902,time,gyroscope,Z
+81,tBodyGyro-max()-X,0.0033987015921084994,0.6722634270966987,time,gyroscope,X
+82,tGravityAcc-entropy()-Y,0.0033961036691485297,0.6756595307658473,time,gravity acc,Y
+83,tBodyAccJerk-energy()-Y,0.0031500086766662033,0.6788095394425134,time,body acc,Y
+84,tBodyAccJerkMag-energy(),0.003149554462679273,0.6819590939051927,time,body acc,none
+85,"tBodyAcc-correlation()-Y,Z",0.0031416844383178075,0.6851007783435106,time,body acc,"Y,Z"
+86,tGravityAccMag-max(),0.0031085575564233285,0.6882093358999339,time,gravity acc,none
+87,tGravityAcc-entropy()-X,0.0030943484469560575,0.69130368434689,time,gravity acc,X
+88,"fBodyGyro-bandsEnergy()-1,8",0.002861957289265846,0.6941656416361559,frequency,gyroscope,X
+89,"tGravityAcc-arCoeff()-X,3",0.0028427203471989,0.6970083619833548,time,gravity acc,X
+90,fBodyAcc-entropy()-Y,0.0028375541036508383,0.6998459160870056,frequency,body acc,Y
+91,fBodyGyro-std()-X,0.0027437286107431062,0.7025896446977488,frequency,gyroscope,X
+92,tBodyGyroJerk-iqr()-X,0.0026801382355653,0.7052697829333141,time,gyroscope,X
+93,"tGravityAcc-arCoeff()-Y,4",0.0026756924158586074,0.7079454753491727,time,gravity acc,Y
+94,tBodyAccJerk-mad()-Z,0.002623267983991374,0.7105687433331641,time,body acc,Z
+95,tBodyAccMag-mean(),0.0025764991150733496,0.7131452424482374,time,body acc,none
+96,"fBodyAccJerk-bandsEnergy()-1,24_3",0.0024786387647995,0.7156238812130369,frequency,body acc,Z
+97,fBodyAccMag-max(),0.002464812229766293,0.7180886934428031,frequency,body acc,none
+98,tBodyGyro-iqr()-X,0.002443675270158605,0.7205323687129618,time,gyroscope,X
+99,fBodyGyro-energy()-X,0.0024328917444098475,0.7229652604573716,frequency,gyroscope,X
+100,tGravityAcc-std()-X,0.00242822152725445,0.725393481984626,time,gravity acc,X
+101,tBodyGyroJerkMag-mean(),0.002419575304768821,0.7278130572893948,time,gyroscope,none
+102,tBodyAccJerkMag-entropy(),0.0023830465503449113,0.7301961038397398,time,body acc,none
+103,"fBodyGyro-bandsEnergy()-1,16",0.0023737380398393764,0.7325698418795792,frequency,gyroscope,X
+104,tBodyGyro-mad()-X,0.002358469087424286,0.7349283109670035,time,gyroscope,X
+105,fBodyAccJerk-energy()-Y,0.0023522698964815337,0.737280580863485,frequency,body acc,Y
+106,"fBodyGyro-bandsEnergy()-1,24",0.0023052863223850984,0.7395858671858702,frequency,gyroscope,X
+107,tBodyGyro-std()-X,0.0022718110382286757,0.7418576782240989,time,gyroscope,X
+108,fBodyGyro-sma(),0.002260508420769195,0.7441181866448681,frequency,gyroscope,none
+109,tBodyGyroJerk-iqr()-Y,0.0022459024525029164,0.746364089097371,time,gyroscope,Y
+110,tBodyGyro-entropy()-X,0.0022286075845064624,0.7485926966818774,time,gyroscope,X
+111,fBodyGyro-max()-X,0.0022278478906515306,0.750820544572529,frequency,gyroscope,X
+112,fBodyAcc-entropy()-X,0.002220598371452771,0.7530411429439817,frequency,body acc,X
+113,fBodyGyro-maxInds-X,0.0021854423476344977,0.7552265852916162,frequency,gyroscope,X
+114,fBodyGyro-mad()-X,0.002181034588354531,0.7574076198799707,frequency,gyroscope,X
+115,tBodyAccMag-energy(),0.002171675795223511,0.7595792956751942,time,body acc,none
+116,fBodyBodyAccJerkMag-iqr(),0.0020990609826109213,0.7616783566578051,frequency,body acc,none
+117,fBodyGyro-maxInds-Y,0.002090643145823139,0.7637689998036283,frequency,gyroscope,Y
+118,fBodyGyro-mean()-X,0.002057179437481409,0.7658261792411097,frequency,gyroscope,X
+119,fBodyAccJerk-maxInds-Z,0.0020413112060375972,0.7678674904471473,frequency,body acc,Z
+120,"tGravityAcc-correlation()-X,Y",0.0020160948384321375,0.7698835852855794,time,gravity acc,"X,Y"
+121,"fBodyGyro-bandsEnergy()-9,16",0.0019939885558206815,0.7718775738414001,frequency,gyroscope,X
+122,fBodyAccMag-iqr(),0.0019067722452495277,0.7737843460866496,frequency,body acc,none
+123,"tBodyGyro-correlation()-Y,Z",0.0019049802739881186,0.7756893263606377,time,gyroscope,"Y,Z"
+124,tBodyGyroJerk-mad()-X,0.001883183144376679,0.7775725095050143,time,gyroscope,X
+125,fBodyAccMag-entropy(),0.00187558149169115,0.7794480909967055,frequency,body acc,none
+126,fBodyAccJerk-std()-Y,0.0018506154532200783,0.7812987064499256,frequency,body acc,Y
+127,"tBodyAcc-correlation()-X,Z",0.0018060695275996404,0.7831047759775253,time,body acc,"X,Z"
+128,tBodyAccMag-max(),0.001770509686035957,0.7848752856635612,time,body acc,none
+129,fBodyBodyAccJerkMag-mean(),0.0017657304158028915,0.7866410160793641,frequency,body acc,none
+130,"tGravityAcc-arCoeff()-X,4",0.0017256324761422506,0.7883666485555063,time,gravity acc,X
+131,tBodyAccJerk-mad()-Y,0.001718084790890839,0.7900847333463972,time,body acc,Y
+132,fBodyAccJerk-mad()-Y,0.001708843444068516,0.7917935767904657,frequency,body acc,Y
+133,fBodyAcc-meanFreq()-Z,0.0016923615011418232,0.7934859382916075,frequency,body acc,Z
+134,tBodyGyroJerk-energy()-X,0.0016900418876537285,0.7951759801792613,time,gyroscope,X
+135,tBodyGyro-energy()-X,0.0016866734307894452,0.7968626536100507,time,gyroscope,X
+136,tBodyAccJerk-std()-Y,0.0016479356197352745,0.798510589229786,time,body acc,Y
+137,"fBodyAcc-bandsEnergy()-17,32",0.0016412277412054446,0.8001518169709915,frequency,body acc,X
+138,tBodyGyroJerk-std()-X,0.0016235159337073765,0.8017753329046988,time,gyroscope,X
+139,fBodyAcc-iqr()-X,0.0016220816230203112,0.8033974145277192,frequency,body acc,X
+140,tBodyAccJerk-iqr()-Z,0.0016138198468205658,0.8050112343745397,time,body acc,Z
+141,tBodyAccMag-sma(),0.0016033473558968979,0.8066145817304365,time,body acc,none
+142,fBodyBodyGyroMag-meanFreq(),0.0015950033088613551,0.8082095850392979,frequency,gyroscope,none
+143,"fBodyAccJerk-bandsEnergy()-17,32",0.0015931482410243918,0.8098027332803223,frequency,body acc,X
+144,tBodyGyro-min()-X,0.001585508897422405,0.8113882421777446,time,gyroscope,X
+145,fBodyAcc-skewness()-X,0.0015643937242482697,0.812952635901993,frequency,body acc,X
+146,tGravityAcc-mad()-X,0.00155289858519193,0.8145055344871849,time,gravity acc,X
+147,fBodyBodyAccJerkMag-max(),0.0015524672566086038,0.8160580017437935,frequency,body acc,none
+148,tBodyAccJerk-entropy()-Y,0.0015504911481408056,0.8176084928919343,time,body acc,Y
+149,tBodyAcc-sma(),0.0015022829567872761,0.8191107758487215,time,body acc,none
+150,tBodyAcc-entropy()-X,0.0014479552358252104,0.8205587310845467,time,body acc,X
+151,fBodyAccMag-meanFreq(),0.0014176191469510168,0.8219763502314977,frequency,body acc,none
+152,tGravityAcc-mad()-Y,0.0014153393706207223,0.8233916896021185,time,gravity acc,Y
+153,fBodyAccJerk-entropy()-Y,0.0013852517395902698,0.8247769413417088,frequency,body acc,Y
+154,tBodyGyroJerk-std()-Z,0.0013685957581996767,0.8261455370999085,time,gyroscope,Z
+155,tBodyGyro-mad()-Y,0.001361332616014007,0.8275068697159225,time,gyroscope,Y
+156,fBodyAcc-kurtosis()-X,0.0013522573245347755,0.8288591270404573,frequency,body acc,X
+157,fBodyAccJerk-energy()-Z,0.0013385077373867993,0.830197634777844,frequency,body acc,Z
+158,tBodyAccMag-iqr(),0.0013350657698413732,0.8315327005476854,time,body acc,none
+159,tGravityAccMag-mean(),0.001333194528761974,0.8328658950764474,time,gravity acc,none
+160,tGravityAccMag-arCoeff()2,0.0013162606454636288,0.834182155721911,time,gravity acc,none
+161,fBodyGyro-entropy()-X,0.0012952664639230738,0.8354774221858341,frequency,gyroscope,X
+162,"tBodyAccJerk-correlation()-X,Y",0.001291847345581732,0.8367692695314158,time,body acc,"X,Y"
+163,tBodyAccMag-arCoeff()2,0.0012858601330522034,0.838055129664468,time,body acc,none
+164,tBodyGyroJerkMag-sma(),0.0012525120039346086,0.8393076416684027,time,gyroscope,none
+165,"fBodyGyro-bandsEnergy()-1,8_3",0.0012101662933848595,0.8405178079617875,frequency,gyroscope,Z
+166,fBodyBodyAccJerkMag-energy(),0.0012058409325890417,0.8417236488943766,frequency,body acc,none
+167,"fBodyAccJerk-bandsEnergy()-17,32_3",0.0011824399102120986,0.8429060888045886,frequency,body acc,Z
+168,tBodyAcc-iqr()-X,0.0011781463173734786,0.8440842351219621,time,body acc,X
+169,"fBodyAccJerk-bandsEnergy()-17,24_3",0.0011772572782943413,0.8452614924002564,frequency,body acc,Z
+170,tBodyGyroJerk-entropy()-X,0.0011742698352843889,0.8464357622355407,time,gyroscope,X
+171,tGravityAcc-std()-Y,0.0011594367647565899,0.8475951990002973,time,gravity acc,Y
+172,"tBodyGyro-arCoeff()-X,1",0.0011297344106401602,0.8487249334109375,time,gyroscope,X
+173,"tGravityAcc-correlation()-Y,Z",0.001118136183811519,0.849843069594749,time,gravity acc,"Y,Z"
+174,fBodyGyro-skewness()-Y,0.0011165973206683523,0.8509596669154174,frequency,gyroscope,Y
+175,fBodyAcc-meanFreq()-X,0.0011130287491983829,0.8520726956646157,frequency,body acc,X
+176,"fBodyAcc-bandsEnergy()-1,8_2",0.0010944833712498764,0.8531671790358656,frequency,body acc,Y
+177,tGravityAccMag-sma(),0.0010669784231026823,0.8542341574589682,time,gravity acc,none
+178,"fBodyAccJerk-bandsEnergy()-1,24_2",0.0010645914950415812,0.8552987489540098,frequency,body acc,Y
+179,fBodyBodyAccJerkMag-std(),0.0010601000996084652,0.8563588490536183,frequency,body acc,none
+180,"tBodyGyro-correlation()-X,Y",0.0010521048403393692,0.8574109538939576,time,gyroscope,"X,Y"
+181,fBodyGyro-max()-Z,0.0010492103315711166,0.8584601642255287,frequency,gyroscope,Z
+182,fBodyAccJerk-maxInds-X,0.001044976382094025,0.8595051406076227,frequency,body acc,X
+183,tBodyGyro-energy()-Z,0.00104434825971143,0.8605494888673342,time,gyroscope,Z
+184,"tGravityAcc-correlation()-X,Z",0.001040297685124926,0.8615897865524591,time,gravity acc,"X,Z"
+185,tBodyGyroJerk-min()-X,0.0009989457085929586,0.862588732261052,time,gyroscope,X
+186,fBodyGyro-skewness()-X,0.0009811546019792004,0.8635698868630313,frequency,gyroscope,X
+187,"fBodyAccJerk-bandsEnergy()-33,48",0.0009745727802101981,0.8645444596432414,frequency,body acc,X
+188,"fBodyAcc-bandsEnergy()-1,16_2",0.000973188365203463,0.8655176480084449,frequency,body acc,Y
+189,tBodyGyro-iqr()-Z,0.0009686983997457978,0.8664863464081907,time,gyroscope,Z
+190,"tBodyGyroJerk-correlation()-X,Y",0.0009557520659502199,0.8674420984741409,time,gyroscope,"X,Y"
+191,tGravityAcc-iqr()-X,0.0009475832281044104,0.8683896817022453,time,gravity acc,X
+192,"tBodyGyroJerk-arCoeff()-X,3",0.0009450892857097274,0.869334770987955,time,gyroscope,X
+193,tBodyGyro-std()-Y,0.0009330031356228761,0.8702677741235778,time,gyroscope,Y
+194,tBodyAccJerkMag-std(),0.0009281837604874235,0.8711959578840652,time,body acc,none
+195,fBodyGyro-skewness()-Z,0.0009205083470140758,0.8721164662310793,frequency,gyroscope,Z
+196,tGravityAccMag-energy(),0.0009166633274870655,0.8730331295585664,time,gravity acc,none
+197,fBodyAcc-skewness()-Y,0.0009124215713640576,0.8739455511299304,frequency,body acc,Y
+198,tBodyGyroJerk-energy()-Z,0.0009018323247703961,0.8748473834547008,time,gyroscope,Z
+199,tGravityAccMag-entropy(),0.0008936094207153235,0.8757409928754162,time,gravity acc,none
+200,fBodyAcc-meanFreq()-Y,0.0008584482581343424,0.8765994411335505,frequency,body acc,Y
+201,"fBodyAcc-bandsEnergy()-17,32_2",0.0008564929261990791,0.8774559340597495,frequency,body acc,Y
+202,"fBodyGyro-bandsEnergy()-1,16_3",0.0008558684293101186,0.8783118024890596,frequency,gyroscope,Z
+203,fBodyAccJerk-mean()-Y,0.0008506973456239667,0.8791624998346835,frequency,body acc,Y
+204,"fBodyAccJerk-bandsEnergy()-17,24",0.0008386761078236171,0.8800011759425072,frequency,body acc,X
+205,fBodyGyro-std()-Z,0.0008365419775772246,0.8808377179200844,frequency,gyroscope,Z
+206,"fBodyGyro-bandsEnergy()-1,8_2",0.0008362769197392824,0.8816739948398237,frequency,gyroscope,Y
+207,"tBodyGyroJerk-arCoeff()-X,1",0.0008361800862047672,0.8825101749260285,time,gyroscope,X
+208,tBodyGyro-iqr()-Y,0.0008162782100079461,0.8833264531360364,time,gyroscope,Y
+209,"tBodyGyro-correlation()-X,Z",0.0008108809547990852,0.8841373340908355,time,gyroscope,"X,Z"
+210,tBodyGyro-mean()-X,0.000797650252667632,0.8849349843435032,time,gyroscope,X
+211,fBodyGyro-max()-Y,0.0007785620839894532,0.8857135464274926,frequency,gyroscope,Y
+212,fBodyGyro-kurtosis()-Z,0.00076601417498019,0.8864795606024728,frequency,gyroscope,Z
+213,tBodyGyro-mad()-Z,0.0007586137790287033,0.8872381743815015,time,gyroscope,Z
+214,"fBodyGyro-bandsEnergy()-1,24_2",0.0007580790924245119,0.8879962534739261,frequency,gyroscope,Y
+215,fBodyGyro-energy()-Z,0.0007505451705148345,0.888746798644441,frequency,gyroscope,Z
+216,"fBodyAccJerk-bandsEnergy()-25,48_3",0.0007466060833297896,0.8894934047277707,frequency,body acc,Z
+217,fBodyGyro-iqr()-X,0.0007433610849432591,0.8902367658127139,frequency,gyroscope,X
+218,fBodyGyro-kurtosis()-Y,0.0007241051044815516,0.8909608709171954,frequency,gyroscope,Y
+219,fBodyBodyAccJerkMag-entropy(),0.000724014358367536,0.891684885275563,frequency,body acc,none
+220,fBodyAccJerk-mean()-Z,0.000722404574216466,0.8924072898497795,frequency,body acc,Z
+221,"fBodyAcc-bandsEnergy()-17,24_3",0.0007076502657946419,0.8931149401155741,frequency,body acc,Z
+222,tBodyGyro-min()-Z,0.0007030069231427236,0.8938179470387169,time,gyroscope,Z
+223,tBodyGyroJerk-max()-X,0.0006897488240412967,0.8945076958627581,time,gyroscope,X
+224,"fBodyAccJerk-bandsEnergy()-17,32_2",0.0006853012771241425,0.8951929971398823,frequency,body acc,Y
+225,tGravityAcc-entropy()-Z,0.0006838493557123218,0.8958768464955946,time,gravity acc,Z
+226,tGravityAccMag-iqr(),0.0006779708198870795,0.8965548173154817,time,gravity acc,none
+227,fBodyGyro-mean()-Z,0.000677668203993759,0.8972324855194754,frequency,gyroscope,Z
+228,tBodyGyro-mean()-Z,0.0006635717045535484,0.897896057224029,time,gyroscope,Z
+229,tBodyGyro-energy()-Y,0.0006575338620878187,0.8985535910861168,time,gyroscope,Y
+230,tBodyGyro-std()-Z,0.0006351789613090429,0.8991887700474258,time,gyroscope,Z
+231,"fBodyAcc-bandsEnergy()-25,48_3",0.0006176538480137065,0.8998064238954395,frequency,body acc,Z
+232,"fBodyGyro-bandsEnergy()-17,32_3",0.0006166255809532236,0.9004230494763927,frequency,gyroscope,Z
+233,fBodyAccJerk-std()-Z,0.0006054520735037222,0.9010285015498964,frequency,body acc,Z
+234,"fBodyGyro-bandsEnergy()-1,24_3",0.0006052170066140877,0.9016337185565105,frequency,gyroscope,Z
+235,tBodyAccJerk-energy()-Z,0.0006048779955721879,0.9022385965520827,time,body acc,Z
+236,fBodyAcc-maxInds-X,0.0005974518241751539,0.9028360483762579,frequency,body acc,X
+237,tGravityAcc-iqr()-Y,0.0005960837237521776,0.90343213210001,time,gravity acc,Y
+238,"tBodyGyroJerk-correlation()-X,Z",0.0005937162082670708,0.9040258483082771,time,gyroscope,"X,Z"
+239,fBodyBodyGyroMag-maxInds,0.0005907361890258605,0.904616584497303,frequency,gyroscope,none
+240,"angle(tBodyGyroMean,gravityMean)",0.0005870788732535945,0.9052036633705566,angle,angle,none
+241,tBodyAccJerk-std()-Z,0.0005822128675308358,0.9057858762380874,time,body acc,Z
+242,"fBodyAcc-bandsEnergy()-17,24_2",0.0005814974586495828,0.9063673736967369,frequency,body acc,Y
+243,tBodyGyroJerk-entropy()-Z,0.0005780819784573922,0.9069454556751944,time,gyroscope,Z
+244,fBodyBodyAccJerkMag-kurtosis(),0.0005720899974788608,0.9075175456726732,frequency,body acc,none
+245,fBodyGyro-energy()-Y,0.0005689035497473611,0.9080864492224205,frequency,gyroscope,Y
+246,tBodyAcc-energy()-Z,0.0005664986083251884,0.9086529478307457,time,body acc,Z
+247,tBodyGyroMag-arCoeff()1,0.0005664312431798524,0.9092193790739256,time,gyroscope,none
+248,fBodyAccJerk-iqr()-Z,0.0005661991845468903,0.9097855782584725,frequency,body acc,Z
+249,tBodyAccJerk-max()-Z,0.0005607277904610426,0.9103463060489335,time,body acc,Z
+250,tBodyAccJerk-entropy()-Z,0.000559709713216105,0.9109060157621496,time,body acc,Z
+251,fBodyGyro-mad()-Y,0.0005571151779876337,0.9114631309401372,frequency,gyroscope,Y
+252,"fBodyGyro-bandsEnergy()-17,24_3",0.0005541640345661782,0.9120172949747034,frequency,gyroscope,Z
+253,"fBodyAcc-bandsEnergy()-17,32_3",0.0005529999844589168,0.9125702949591623,frequency,body acc,Z
+254,tBodyGyro-max()-Z,0.0005487802677073792,0.9131190752268696,time,gyroscope,Z
+255,"fBodyAccJerk-bandsEnergy()-1,8_3",0.0005445825547451578,0.9136636577816148,frequency,body acc,Z
+256,"fBodyAccJerk-bandsEnergy()-25,32_3",0.0005341616766286184,0.9141978194582434,frequency,body acc,Z
+257,"fBodyGyro-bandsEnergy()-25,48",0.0005338638586928176,0.9147316833169362,frequency,gyroscope,X
+258,fBodyAcc-skewness()-Z,0.000532150383566255,0.9152638337005025,frequency,body acc,Z
+259,fBodyGyro-mean()-Y,0.0005290197061532974,0.9157928534066557,frequency,gyroscope,Y
+260,"fBodyAcc-bandsEnergy()-1,24_3",0.0005267803481068638,0.9163196337547626,frequency,body acc,Z
+261,fBodyGyro-std()-Y,0.0005256233943838293,0.9168452571491463,frequency,gyroscope,Y
+262,"fBodyGyro-bandsEnergy()-25,48_3",0.0005176738045446731,0.917362930953691,frequency,gyroscope,Z
+263,fBodyAccJerk-meanFreq()-Z,0.0005155466622401364,0.9178784776159312,frequency,body acc,Z
+264,fBodyGyro-meanFreq()-Z,0.0005091282825468525,0.9183876058984781,frequency,gyroscope,Z
+265,fBodyAcc-std()-Z,0.000501340986651718,0.9188889468851298,frequency,body acc,Z
+266,tBodyAcc-energy()-Y,0.0004916846790121052,0.9193806315641418,time,body acc,Y
+267,tBodyGyro-entropy()-Z,0.0004860633994789458,0.9198666949636208,time,gyroscope,Z
+268,"fBodyGyro-bandsEnergy()-33,40",0.0004860004124836761,0.9203526953761045,frequency,gyroscope,X
+269,fBodyAcc-max()-Y,0.0004838862064614607,0.920836581582566,frequency,body acc,Y
+270,tBodyGyro-mean()-Y,0.0004828664600824306,0.9213194480426484,time,gyroscope,Y
+271,"tBodyGyro-arCoeff()-Y,1",0.00048232962601534865,0.9218017776686638,time,gyroscope,Y
+272,fBodyBodyAccJerkMag-skewness(),0.0004820841618290244,0.9222838618304928,frequency,body acc,none
+273,fBodyBodyAccJerkMag-mad(),0.00047979032728849834,0.9227636521577813,frequency,body acc,none
+274,"fBodyGyro-bandsEnergy()-17,24",0.00047682419925602974,0.9232404763570373,frequency,gyroscope,X
+275,tBodyAcc-min()-X,0.00047358830660218054,0.9237140646636395,time,body acc,X
+276,"fBodyAcc-bandsEnergy()-1,8_3",0.00047239704013190393,0.9241864617037714,frequency,body acc,Z
+277,tBodyGyroJerk-mean()-Z,0.0004720852217069065,0.9246585469254783,time,gyroscope,Z
+278,tGravityAcc-mad()-Z,0.0004687183710149396,0.9251272652964933,time,gravity acc,Z
+279,"tBodyGyroJerk-correlation()-Y,Z",0.000465751985695454,0.9255930172821887,time,gyroscope,"Y,Z"
+280,tGravityAcc-std()-Z,0.00046250730429528105,0.926055524586484,time,gravity acc,Z
+281,"fBodyGyro-bandsEnergy()-25,32",0.0004621551046926745,0.9265176796911767,frequency,gyroscope,X
+282,tBodyGyroJerk-max()-Z,0.000453490725760992,0.9269711704169377,time,gyroscope,Z
+283,"fBodyGyro-bandsEnergy()-1,16_2",0.00045337990066039567,0.9274245503175981,frequency,gyroscope,Y
+284,"fBodyGyro-bandsEnergy()-57,64_3",0.00045264069888407824,0.9278771910164821,frequency,gyroscope,Z
+285,fBodyBodyAccJerkMag-sma(),0.00045165553102412433,0.9283288465475062,frequency,body acc,none
+286,tBodyAccJerk-max()-Y,0.00045094280272311315,0.9287797893502293,time,body acc,Y
+287,fBodyBodyGyroJerkMag-skewness(),0.0004505518705651833,0.9292303412207945,frequency,gyroscope,none
+288,"fBodyGyro-bandsEnergy()-25,48_2",0.00044874136127858756,0.9296790825820731,frequency,gyroscope,Y
+289,"fBodyGyro-bandsEnergy()-25,32_2",0.00044482624148132913,0.9301239088235544,frequency,gyroscope,Y
+290,"fBodyAccJerk-bandsEnergy()-1,16_3",0.0004431436550214481,0.9305670524785759,frequency,body acc,Z
+291,fBodyAcc-maxInds-Y,0.0004382387050964308,0.9310052911836723,frequency,body acc,Y
+292,"fBodyAccJerk-bandsEnergy()-17,24_2",0.0004355347697648599,0.9314408259534371,frequency,body acc,Y
+293,fBodyAcc-mad()-Z,0.0004351635198376862,0.9318759894732748,frequency,body acc,Z
+294,"fBodyAcc-bandsEnergy()-1,16_3",0.00043473161243435003,0.9323107210857091,frequency,body acc,Z
+295,"fBodyGyro-bandsEnergy()-17,32",0.0004322215062698521,0.932742942591979,frequency,gyroscope,X
+296,fBodyAcc-entropy()-Z,0.0004249705158834053,0.9331679131078624,frequency,body acc,Z
+297,fBodyAccJerk-iqr()-X,0.00042496796536680093,0.9335928810732292,frequency,body acc,X
+298,fBodyBodyGyroMag-mad(),0.0004233768936389605,0.9340162579668682,frequency,gyroscope,none
+299,fBodyGyro-entropy()-Z,0.0004232942238796965,0.9344395521907478,frequency,gyroscope,Z
+300,tBodyAcc-iqr()-Y,0.0004139235695843874,0.9348534757603322,time,body acc,Y
+301,"fBodyGyro-bandsEnergy()-33,48",0.000413802764309701,0.9352672785246419,frequency,gyroscope,X
+302,"fBodyGyro-bandsEnergy()-17,32_2",0.0004136430710982949,0.9356809215957401,frequency,gyroscope,Y
+303,fBodyGyro-kurtosis()-X,0.0004123011452014365,0.9360932227409415,frequency,gyroscope,X
+304,"tBodyGyroJerk-arCoeff()-Z,4",0.00041229861488499304,0.9365055213558265,time,gyroscope,Z
+305,"fBodyGyro-bandsEnergy()-25,32_3",0.00040661674387181516,0.9369121380996983,frequency,gyroscope,Z
+306,fBodyBodyGyroJerkMag-std(),0.0004021707035917782,0.9373143088032901,frequency,gyroscope,none
+307,tBodyAcc-entropy()-Z,0.00040159352110222984,0.9377159023243924,time,body acc,Z
+308,tBodyGyroJerk-mad()-Y,0.00040090845673163364,0.9381168107811241,time,gyroscope,Y
+309,"fBodyAcc-bandsEnergy()-9,16_3",0.00040074589718985066,0.9385175566783139,frequency,body acc,Z
+310,fBodyGyro-mad()-Z,0.0004000900371370569,0.938917646715451,frequency,gyroscope,Z
+311,fBodyBodyGyroMag-skewness(),0.0003972397216722102,0.9393148864371231,frequency,gyroscope,none
+312,fBodyGyro-iqr()-Y,0.00039626359305948834,0.9397111500301826,frequency,gyroscope,Y
+313,fBodyAccJerk-mad()-Z,0.000396231407055955,0.9401073814372385,frequency,body acc,Z
+314,fBodyAcc-kurtosis()-Y,0.0003922258424238147,0.9404996072796623,frequency,body acc,Y
+315,fBodyBodyGyroJerkMag-max(),0.00039107305737228994,0.9408906803370346,frequency,gyroscope,none
+316,tBodyGyro-max()-Y,0.0003909133869196844,0.9412815937239543,time,gyroscope,Y
+317,"fBodyAccJerk-bandsEnergy()-9,16_3",0.00039067816632291783,0.9416722718902771,frequency,body acc,Z
+318,"fBodyGyro-bandsEnergy()-49,56",0.00038932362085078404,0.9420615955111279,frequency,gyroscope,X
+319,tBodyGyro-entropy()-Y,0.00038654842750220596,0.9424481439386301,time,gyroscope,Y
+320,"angle(tBodyGyroJerkMean,gravityMean)",0.00038345372832288536,0.942831597666953,angle,angle,none
+321,fBodyBodyGyroJerkMag-kurtosis(),0.0003829681072354494,0.9432145657741885,frequency,gyroscope,none
+322,"tBodyAccJerk-correlation()-Y,Z",0.0003820658401967909,0.9435966316143853,time,body acc,"Y,Z"
+323,"fBodyGyro-bandsEnergy()-49,64",0.0003755011176689882,0.9439721327320544,frequency,gyroscope,X
+324,fBodyAcc-kurtosis()-Z,0.000375307720467593,0.944347440452522,frequency,body acc,Z
+325,tBodyAcc-mad()-Y,0.0003747887524821027,0.944722229205004,time,body acc,Y
+326,tBodyGyroJerk-energy()-Y,0.0003716413731568356,0.9450938705781609,time,gyroscope,Y
+327,"tBodyGyroJerk-arCoeff()-X,2",0.00036918838915963405,0.9454630589673205,time,gyroscope,X
+328,tBodyGyro-sma(),0.00036876459419849997,0.9458318235615191,time,gyroscope,none
+329,tBodyGyroMag-sma(),0.000368686100898778,0.9462005096624179,time,gyroscope,none
+330,fBodyBodyGyroJerkMag-mad(),0.0003685292072374744,0.9465690388696554,frequency,gyroscope,none
+331,"fBodyAccJerk-bandsEnergy()-25,48",0.00036678653516781286,0.9469358254048232,frequency,body acc,X
+332,tBodyAcc-std()-Z,0.0003661747602140453,0.9473020001650373,time,body acc,Z
+333,tBodyGyroMag-energy(),0.0003648211104675649,0.9476668212755048,time,gyroscope,none
+334,fBodyBodyGyroMag-mean(),0.0003624630989741084,0.948029284374479,frequency,gyroscope,none
+335,"tBodyAccJerk-arCoeff()-Y,4",0.0003602395144036751,0.9483895238888826,time,body acc,Y
+336,"fBodyAccJerk-bandsEnergy()-33,48_3",0.00035922783483506056,0.9487487517237178,frequency,body acc,Z
+337,"fBodyGyro-bandsEnergy()-33,48_3",0.00035510414914303914,0.9491038558728608,frequency,gyroscope,Z
+338,tBodyGyroMag-arCoeff()2,0.000354986523812758,0.9494588423966736,time,gyroscope,none
+339,fBodyBodyGyroJerkMag-energy(),0.0003539624653507916,0.9498128048620244,frequency,gyroscope,none
+340,"fBodyAcc-bandsEnergy()-25,48",0.0003509417331409185,0.9501637465951652,frequency,body acc,X
+341,tBodyAccJerk-min()-X,0.00034905103900509875,0.9505127976341703,time,body acc,X
+342,"fBodyAcc-bandsEnergy()-9,16_2",0.0003488099821689275,0.9508616076163392,frequency,body acc,Y
+343,fBodyGyro-min()-Z,0.00034699195499879863,0.951208599571338,frequency,gyroscope,Z
+344,"tBodyAcc-arCoeff()-X,1",0.0003467902659639475,0.9515553898373019,time,body acc,X
+345,fBodyAccJerk-max()-Z,0.00034637324880907406,0.951901763086111,frequency,body acc,Z
+346,"tBodyAccJerk-correlation()-X,Z",0.0003462555675726881,0.9522480186536837,time,body acc,"X,Z"
+347,tBodyGyroMag-mean(),0.00034473369801612836,0.9525927523516998,time,gyroscope,none
+348,fBodyGyro-min()-X,0.0003446903014702067,0.95293744265317,frequency,gyroscope,X
+349,fBodyAccJerk-meanFreq()-X,0.00034410122368907836,0.9532815438768591,frequency,body acc,X
+350,tBodyGyroJerkMag-energy(),0.00034117685409763046,0.9536227207309568,time,gyroscope,none
+351,"fBodyGyro-bandsEnergy()-49,64_3",0.00034022742064646506,0.9539629481516032,frequency,gyroscope,Z
+352,"fBodyGyro-bandsEnergy()-57,64",0.0003399801442996748,0.9543029282959029,frequency,gyroscope,X
+353,tBodyGyroMag-min(),0.0003398059671762655,0.9546427342630792,time,gyroscope,none
+354,tBodyGyroJerk-std()-Y,0.00033896939474440096,0.9549817036578236,time,gyroscope,Y
+355,fBodyAcc-std()-Y,0.00033837893470402655,0.9553200825925277,frequency,body acc,Y
+356,"tBodyGyro-arCoeff()-X,4",0.00033212439978527844,0.9556522069923129,time,gyroscope,X
+357,"fBodyAccJerk-bandsEnergy()-1,8_2",0.00033184746635815866,0.9559840544586711,frequency,body acc,Y
+358,tBodyGyroJerkMag-iqr(),0.0003310256686197797,0.9563150801272908,time,gyroscope,none
+359,fBodyAccJerk-max()-Y,0.00033099259542669537,0.9566460727227175,frequency,body acc,Y
+360,"tBodyGyro-arCoeff()-Z,4",0.00033024551551095506,0.9569763182382285,time,gyroscope,Z
+361,"tBodyAccJerk-arCoeff()-Z,1",0.0003295055633841976,0.9573058238016127,time,body acc,Z
+362,tBodyAccJerkMag-arCoeff()2,0.0003262629019695068,0.9576320867035821,time,body acc,none
+363,tBodyGyroJerkMag-std(),0.0003235568792815786,0.9579556435828637,time,gyroscope,none
+364,fBodyGyro-entropy()-Y,0.0003219375515916412,0.9582775811344553,frequency,gyroscope,Y
+365,"fBodyGyro-bandsEnergy()-9,16_2",0.00032137606913437445,0.9585989572035897,frequency,gyroscope,Y
+366,"fBodyGyro-bandsEnergy()-9,16_3",0.0003209127694058254,0.9589198699729955,frequency,gyroscope,Z
+367,tBodyGyroJerkMag-mad(),0.0003170546908701336,0.9592369246638657,time,gyroscope,none
+368,"fBodyAcc-bandsEnergy()-33,48",0.00031609980606880895,0.9595530244699345,frequency,body acc,X
+369,fBodyAccJerk-entropy()-Z,0.00031572375715007713,0.9598687482270846,frequency,body acc,Z
+370,fBodyAcc-max()-Z,0.0003134335627085814,0.9601821817897932,frequency,body acc,Z
+371,tGravityAcc-iqr()-Z,0.0003126380643116163,0.9604948198541048,time,gravity acc,Z
+372,fBodyAcc-mean()-Z,0.00031017513502149354,0.9608049949891263,frequency,body acc,Z
+373,tBodyAcc-min()-Z,0.0003098296639654194,0.9611148246530917,time,body acc,Z
+374,tBodyGyroJerk-min()-Z,0.00030407465845227495,0.961418899311544,time,gyroscope,Z
+375,"fBodyAcc-bandsEnergy()-17,24",0.0003005762408175641,0.9617194755523616,frequency,body acc,X
+376,"fBodyAcc-bandsEnergy()-1,24_2",0.0003005644303520032,0.9620200399827136,frequency,body acc,Y
+377,fBodyGyro-iqr()-Z,0.0002997968218905164,0.9623198368046041,frequency,gyroscope,Z
+378,"fBodyGyro-bandsEnergy()-41,48",0.00029648242660791917,0.962616319231212,frequency,gyroscope,X
+379,tGravityAccMag-arCoeff()4,0.00029605565655443195,0.9629123748877665,time,gravity acc,none
+380,fBodyAccJerk-kurtosis()-Y,0.00029605212745353833,0.96320842701522,frequency,body acc,Y
+381,tBodyGyroJerk-entropy()-Y,0.0002949395749265658,0.9635033665901466,time,gyroscope,Y
+382,"fBodyGyro-bandsEnergy()-41,48_3",0.0002914912313060161,0.9637948578214526,frequency,gyroscope,Z
+383,fBodyBodyGyroMag-kurtosis(),0.0002914547560192295,0.9640863125774718,frequency,gyroscope,none
+384,fBodyAcc-iqr()-Z,0.0002886319488427411,0.9643749445263146,frequency,body acc,Z
+385,"fBodyAcc-bandsEnergy()-41,48",0.00028764180596606135,0.9646625863322806,frequency,body acc,X
+386,tBodyAcc-mad()-Z,0.00028649077435822574,0.9649490771066389,time,body acc,Z
+387,fBodyBodyGyroJerkMag-meanFreq(),0.0002856295022994359,0.9652347066089384,frequency,gyroscope,none
+388,"tBodyAccJerk-arCoeff()-X,1",0.000284785447173275,0.9655194920561117,time,body acc,X
+389,fBodyAcc-energy()-Y,0.0002847614263639936,0.9658042534824757,frequency,body acc,Y
+390,fBodyBodyGyroMag-sma(),0.0002818961544817992,0.9660861496369575,frequency,gyroscope,none
+391,"fBodyGyro-bandsEnergy()-41,48_2",0.00027955733078314246,0.9663657069677406,frequency,gyroscope,Y
+392,"tBodyAcc-arCoeff()-X,2",0.00027847795516263606,0.9666441849229033,time,body acc,X
+393,tBodyGyroJerkMag-max(),0.00027794247499970926,0.966922127397903,time,gyroscope,none
+394,tBodyGyroJerk-mean()-X,0.00027677773838364917,0.9671989051362866,time,gyroscope,X
+395,fBodyBodyGyroMag-std(),0.00027606445747081553,0.9674749695937575,frequency,gyroscope,none
+396,tBodyAccJerk-min()-Z,0.00027573512962825983,0.9677507047233858,time,body acc,Z
+397,"fBodyAccJerk-bandsEnergy()-9,16_2",0.00027369705633130463,0.968024401779717,frequency,body acc,Y
+398,"tBodyAccJerk-arCoeff()-X,4",0.00027340229979780925,0.9682978040795148,time,body acc,X
+399,fBodyAccJerk-skewness()-Y,0.00027070569646246755,0.9685685097759773,frequency,body acc,Y
+400,"tBodyGyroJerk-arCoeff()-Y,4",0.00026970276439514747,0.9688382125403725,time,gyroscope,Y
+401,"tBodyAcc-arCoeff()-X,4",0.0002682507537741941,0.9691064632941467,time,body acc,X
+402,fBodyAccJerk-meanFreq()-Y,0.00026730628174050596,0.9693737695758873,frequency,body acc,Y
+403,tBodyAcc-max()-Z,0.0002667499018511476,0.9696405194777384,time,body acc,Z
+404,fBodyBodyGyroMag-energy(),0.00026634584800955046,0.969906865325748,frequency,gyroscope,none
+405,"tBodyAcc-arCoeff()-Z,4",0.00026590750350645556,0.9701727728292544,time,body acc,Z
+406,"tBodyAcc-arCoeff()-Y,4",0.0002654735850440713,0.9704382464142984,time,body acc,Y
+407,"fBodyGyro-bandsEnergy()-33,40_3",0.0002644528501355183,0.970702699264434,frequency,gyroscope,Z
+408,"tBodyGyro-arCoeff()-Y,2",0.00026297635902739706,0.9709656756234614,time,gyroscope,Y
+409,tBodyGyroMag-std(),0.0002628653454989501,0.9712285409689603,time,gyroscope,none
+410,"fBodyAccJerk-bandsEnergy()-33,40_3",0.0002626989611823437,0.9714912399301426,frequency,body acc,Z
+411,tBodyAcc-mean()-Y,0.0002626036487701385,0.9717538435789128,time,body acc,Y
+412,fBodyAccJerk-skewness()-X,0.0002597811976922282,0.972013624776605,frequency,body acc,X
+413,fBodyAcc-energy()-Z,0.0002593650807125947,0.9722729898573176,frequency,body acc,Z
+414,fBodyBodyGyroMag-iqr(),0.00025906099086634343,0.972532050848184,frequency,gyroscope,none
+415,"tBodyGyroJerk-arCoeff()-Y,1",0.00025894936891805286,0.972791000217102,time,gyroscope,Y
+416,tBodyAcc-std()-Y,0.00025737093402312413,0.9730483711511251,time,body acc,Y
+417,"fBodyAccJerk-bandsEnergy()-25,48_2",0.000257194662130355,0.9733055658132554,frequency,body acc,Y
+418,"tBodyAccJerk-arCoeff()-Z,3",0.00025567605228947736,0.9735612418655449,time,body acc,Z
+419,"tBodyGyroJerk-arCoeff()-Z,3",0.0002550571825661746,0.9738162990481111,time,gyroscope,Z
+420,"fBodyAcc-bandsEnergy()-33,40_3",0.0002541005937872403,0.9740703996418983,frequency,body acc,Z
+421,tBodyGyroJerk-min()-Y,0.00025386278663692865,0.9743242624285353,time,gyroscope,Y
+422,"tBodyAccJerk-arCoeff()-Z,4",0.00025357695405722557,0.9745778393825926,time,body acc,Z
+423,"fBodyGyro-bandsEnergy()-49,56_3",0.00025205080283996907,0.9748298901854325,frequency,gyroscope,Z
+424,tBodyGyro-min()-Y,0.0002519769382881804,0.9750818671237207,time,gyroscope,Y
+425,"fBodyAccJerk-bandsEnergy()-25,32",0.0002516379664122139,0.975333505090133,frequency,body acc,X
+426,tBodyGyroMag-max(),0.0002500104254708992,0.9755835155156038,time,gyroscope,none
+427,"fBodyAcc-bandsEnergy()-25,32_3",0.0002461732356343713,0.9758296887512382,frequency,body acc,Z
+428,"fBodyAccJerk-bandsEnergy()-41,48_3",0.0002456078555564896,0.9760752966067947,frequency,body acc,Z
+429,"fBodyGyro-bandsEnergy()-17,24_2",0.00024534234974089137,0.9763206389565356,frequency,gyroscope,Y
+430,fBodyAccMag-kurtosis(),0.00024490103627276057,0.9765655399928084,frequency,body acc,none
+431,tBodyGyroMag-iqr(),0.00024391017897476677,0.9768094501717831,time,gyroscope,none
+432,tBodyAccMag-arCoeff()3,0.00024324953885989666,0.977052699710643,time,body acc,none
+433,fBodyBodyGyroJerkMag-mean(),0.00024303627140562177,0.9772957359820487,frequency,gyroscope,none
+434,"fBodyGyro-bandsEnergy()-33,48_2",0.00024280759948720906,0.9775385435815359,frequency,gyroscope,Y
+435,tBodyGyroJerk-max()-Y,0.00024088723458667627,0.9777794308161226,time,gyroscope,Y
+436,"fBodyAcc-bandsEnergy()-25,48_2",0.00023926310144511593,0.9780186939175677,frequency,body acc,Y
+437,tBodyGyroJerkMag-arCoeff()4,0.0002388923762042123,0.9782575862937719,time,gyroscope,none
+438,tBodyAccMag-entropy(),0.00023870443745643922,0.9784962907312283,time,body acc,none
+439,tBodyGyroMag-entropy(),0.00023812451057086967,0.9787344152417993,time,gyroscope,none
+440,tBodyGyroJerkMag-entropy(),0.0002375156396988815,0.9789719308814981,time,gyroscope,none
+441,"tBodyAcc-arCoeff()-Z,1",0.0002372717873168636,0.9792092026688151,time,body acc,Z
+442,fBodyBodyGyroMag-max(),0.00023222293386012194,0.9794414256026752,frequency,gyroscope,none
+443,"tBodyGyroJerk-arCoeff()-Z,2",0.00023206706020185703,0.9796734926628771,time,gyroscope,Z
+444,fBodyAccJerk-kurtosis()-X,0.00023181864392357904,0.9799053113068007,frequency,body acc,X
+445,"tBodyGyroJerk-arCoeff()-Y,3",0.00022560810418126921,0.980130919410982,time,gyroscope,Y
+446,"fBodyAccJerk-bandsEnergy()-33,48_2",0.0002252362403606084,0.9803561556513426,frequency,body acc,Y
+447,tBodyGyroMag-arCoeff()4,0.00022509162344551225,0.9805812472747881,time,gyroscope,none
+448,"tBodyGyro-arCoeff()-Y,3",0.00022483190370448282,0.9808060791784926,time,gyroscope,Y
+449,"tBodyAccJerk-arCoeff()-X,3",0.00022187227387278542,0.9810279514523654,time,body acc,X
+450,tBodyAcc-min()-Y,0.0002210518608864718,0.9812490033132519,time,body acc,Y
+451,fBodyGyro-meanFreq()-Y,0.00022073833912953584,0.9814697416523814,frequency,gyroscope,Y
+452,fBodyAccJerk-iqr()-Y,0.00021997457394802456,0.9816897162263295,frequency,body acc,Y
+453,fBodyAcc-mad()-Y,0.0002190667919013159,0.9819087830182308,frequency,body acc,Y
+454,"fBodyAccJerk-bandsEnergy()-25,32_2",0.00021900367111573105,0.9821277866893465,frequency,body acc,Y
+455,fBodyBodyGyroMag-entropy(),0.00021851861363162084,0.9823463053029782,frequency,gyroscope,none
+456,"tBodyGyro-arCoeff()-Y,4",0.00021792922815580304,0.982564234531134,time,gyroscope,Y
+457,"fBodyGyro-bandsEnergy()-49,64_2",0.00021785194556281305,0.9827820864766967,frequency,gyroscope,Y
+458,"tBodyAcc-arCoeff()-Y,1",0.0002176029352502141,0.9829996894119469,time,body acc,Y
+459,"tBodyGyro-arCoeff()-Z,2",0.0002173248238121606,0.9832170142357591,time,gyroscope,Z
+460,"fBodyAcc-bandsEnergy()-33,48_3",0.00021607505823551893,0.9834330892939946,frequency,body acc,Z
+461,fBodyAcc-mean()-Y,0.00021536318474212296,0.9836484524787368,frequency,body acc,Y
+462,fBodyBodyGyroMag-min(),0.00021315678098089708,0.9838616092597177,frequency,gyroscope,none
+463,tBodyAcc-max()-Y,0.00021284519900698613,0.9840744544587247,time,body acc,Y
+464,tBodyAcc-mean()-X,0.00021259336562928747,0.984287047824354,time,body acc,X
+465,tBodyGyroMag-mad(),0.00021221171212944715,0.9844992595364834,time,gyroscope,none
+466,tBodyAcc-iqr()-Z,0.0002089719554939935,0.9847082314919774,time,body acc,Z
+467,fBodyAccJerk-skewness()-Z,0.00020652617129885692,0.9849147576632763,frequency,body acc,Z
+468,"tBodyAccJerk-arCoeff()-Y,1",0.0002061655059442814,0.9851209231692206,time,body acc,Y
+469,tBodyAcc-mean()-Z,0.0002053208478589115,0.9853262440170796,time,body acc,Z
+470,"tBodyAccJerk-arCoeff()-Y,3",0.0002040934577615224,0.9855303374748411,time,body acc,Y
+471,tGravityAccMag-arCoeff()3,0.00020216684284301117,0.9857325043176841,time,gravity acc,none
+472,tBodyAccJerkMag-arCoeff()1,0.00020071931374633813,0.9859332236314304,time,body acc,none
+473,tGravityAccMag-min(),0.00019767571104912599,0.9861308993424795,time,gravity acc,none
+474,tBodyGyroJerkMag-arCoeff()1,0.0001967425348759676,0.9863276418773556,time,gyroscope,none
+475,"tBodyGyro-arCoeff()-Z,3",0.00019671464451044644,0.986524356521866,time,gyroscope,Z
+476,"fBodyGyro-bandsEnergy()-57,64_2",0.00019663545485763603,0.9867209919767236,frequency,gyroscope,Y
+477,tBodyAccJerk-min()-Y,0.00019635897878394356,0.9869173509555075,time,body acc,Y
+478,fBodyBodyGyroJerkMag-iqr(),0.00019630693759698745,0.9871136578931045,frequency,gyroscope,none
+479,tBodyGyroJerkMag-arCoeff()3,0.00019594275625140726,0.9873096006493559,time,gyroscope,none
+480,fBodyAcc-iqr()-Y,0.00019578024920705598,0.987505380898563,frequency,body acc,Y
+481,"tBodyAcc-arCoeff()-Y,2",0.00019440347169825497,0.9876997843702613,time,body acc,Y
+482,tBodyGyroMag-arCoeff()3,0.0001923012802882972,0.9878920856505495,time,gyroscope,none
+483,fBodyBodyAccJerkMag-meanFreq(),0.00019156429945022327,0.9880836499499998,frequency,body acc,none
+484,tBodyGyroJerkMag-min(),0.00019143472337832356,0.9882750846733781,time,gyroscope,none
+485,"fBodyAccJerk-bandsEnergy()-41,48",0.00019044221840146012,0.9884655268917796,frequency,body acc,X
+486,"fBodyAccJerk-bandsEnergy()-49,56_3",0.00018732106765278868,0.9886528479594323,frequency,body acc,Z
+487,"fBodyAccJerk-bandsEnergy()-33,40",0.00018638265689142035,0.9888392306163237,frequency,body acc,X
+488,fBodyAccJerk-maxInds-Y,0.0001852165913569022,0.9890244472076807,frequency,body acc,Y
+489,tBodyAccJerkMag-arCoeff()4,0.0001849290239977617,0.9892093762316785,time,body acc,none
+490,"fBodyAcc-bandsEnergy()-41,48_3",0.0001847583623125186,0.989394134593991,frequency,body acc,Z
+491,"angle(tBodyAccMean,gravity)",0.00018288662691914677,0.9895770212209101,angle,angle,none
+492,tBodyAccMag-arCoeff()4,0.00018266989749940332,0.9897596911184094,time,body acc,none
+493,"fBodyGyro-bandsEnergy()-33,40_2",0.0001818970488500432,0.9899415881672595,frequency,gyroscope,Y
+494,"tBodyGyroJerk-arCoeff()-X,4",0.0001812703125389049,0.9901228584797984,time,gyroscope,X
+495,"tBodyGyro-arCoeff()-Z,1",0.00018035503631820936,0.9903032135161166,time,gyroscope,Z
+496,"tBodyAcc-arCoeff()-Z,3",0.00017910717346641427,0.990482320689583,time,body acc,Z
+497,tBodyGyroJerkMag-arCoeff()2,0.00017799531152217144,0.9906603160011052,time,gyroscope,none
+498,"fBodyAcc-bandsEnergy()-33,40",0.00017773788342348668,0.9908380538845286,frequency,body acc,X
+499,"tBodyGyro-arCoeff()-X,3",0.00017757362333853735,0.9910156275078672,time,gyroscope,X
+500,tBodyAccJerkMag-arCoeff()3,0.00017653574513583665,0.9911921632530031,time,body acc,none
+501,fBodyBodyGyroJerkMag-entropy(),0.00017652371929307946,0.9913686869722962,frequency,gyroscope,none
+502,"fBodyAccJerk-bandsEnergy()-49,64_3",0.00017139144907523518,0.9915400784213714,frequency,body acc,Z
+503,tBodyAcc-entropy()-Y,0.0001713856173903414,0.9917114640387618,time,body acc,Y
+504,tBodyGyroJerk-mean()-Y,0.00016989958766309998,0.9918813636264249,time,gyroscope,Y
+505,"tBodyGyroJerk-arCoeff()-Z,1",0.00016956301477729396,0.9920509266412022,time,gyroscope,Z
+506,fBodyAccMag-skewness(),0.0001694595469853814,0.9922203861881875,frequency,body acc,none
+507,"fBodyAccJerk-bandsEnergy()-41,48_2",0.00016918577821540084,0.992389571966403,frequency,body acc,Y
+508,tBodyAccMag-min(),0.0001689299306449683,0.992558501897048,time,body acc,none
+509,"fBodyAcc-bandsEnergy()-25,32_2",0.00016618141398503514,0.992724683311033,frequency,body acc,Y
+510,"tBodyAcc-arCoeff()-Z,2",0.00016498333451132945,0.9928896666455443,time,body acc,Z
+511,tBodyAccJerkMag-min(),0.00016381532134020755,0.9930534819668846,time,body acc,none
+512,"fBodyAccJerk-bandsEnergy()-49,64_2",0.00016291809476856345,0.9932164000616531,frequency,body acc,Y
+513,"fBodyAcc-bandsEnergy()-49,56_2",0.0001617351091815053,0.9933781351708346,frequency,body acc,Y
+514,"tBodyAcc-arCoeff()-X,3",0.0001615075928432766,0.9935396427636779,time,body acc,X
+515,tBodyAccJerk-mean()-X,0.0001608716653376103,0.9937005144290155,time,body acc,X
+516,"tBodyAccJerk-arCoeff()-Z,2",0.00016064693562361617,0.9938611613646391,time,body acc,Z
+517,"fBodyAcc-bandsEnergy()-49,64_2",0.00016042847113806425,0.9940215898357772,frequency,body acc,Y
+518,fBodyAccMag-min(),0.00015931938133776448,0.9941809092171149,frequency,body acc,none
+519,fBodyAccJerk-min()-Y,0.00015911811821977878,0.9943400273353347,frequency,body acc,Y
+520,tBodyAccJerk-mean()-Z,0.00015909263765171892,0.9944991199729863,time,body acc,Z
+521,"fBodyAcc-bandsEnergy()-49,64_3",0.00015379776186544384,0.9946529177348518,frequency,body acc,Z
+522,fBodyAcc-min()-X,0.00015327467132545742,0.9948061924061772,frequency,body acc,X
+523,"fBodyAcc-bandsEnergy()-57,64",0.00015292312506679778,0.9949591155312439,frequency,body acc,X
+524,fBodyBodyGyroJerkMag-sma(),0.0001523400181028269,0.9951114555493468,frequency,gyroscope,none
+525,"fBodyAcc-bandsEnergy()-49,56",0.0001500746141784185,0.9952615301635251,frequency,body acc,X
+526,"fBodyAcc-bandsEnergy()-25,32",0.00014941484660857069,0.9954109450101337,frequency,body acc,X
+527,tBodyAccJerkMag-max(),0.00014924852846872713,0.9955601935386025,time,body acc,none
+528,"fBodyAcc-bandsEnergy()-49,56_3",0.00014830043626028912,0.9957084939748627,frequency,body acc,Z
+529,"tBodyGyroJerk-arCoeff()-Y,2",0.00014823398683653765,0.9958567279616992,time,gyroscope,Y
+530,"fBodyAcc-bandsEnergy()-41,48_2",0.00014668610273980336,0.996003414064439,frequency,body acc,Y
+531,"fBodyAccJerk-bandsEnergy()-57,64_2",0.00014654553494051987,0.9961499595993796,frequency,body acc,Y
+532,"tBodyAccJerk-arCoeff()-Y,2",0.00014636348653385833,0.9962963230859134,time,body acc,Y
+533,"fBodyGyro-bandsEnergy()-49,56_2",0.0001463590377892784,0.9964426821237027,frequency,gyroscope,Y
+534,fBodyBodyAccJerkMag-maxInds,0.0001439984573686818,0.9965866805810714,frequency,body acc,none
+535,fBodyAcc-min()-Y,0.00014353953655118636,0.9967302201176226,frequency,body acc,Y
+536,fBodyAccJerk-kurtosis()-Z,0.00014341314449230842,0.9968736332621149,frequency,body acc,Z
+537,"fBodyAccJerk-bandsEnergy()-49,56",0.0001426565398341167,0.997016289801949,frequency,body acc,X
+538,"fBodyAcc-bandsEnergy()-33,40_2",0.0001418163147839692,0.997158106116733,frequency,body acc,Y
+539,fBodyAccMag-maxInds,0.00013786644309098805,0.9972959725598239,frequency,body acc,none
+540,fBodyBodyGyroJerkMag-maxInds,0.00013589694012208425,0.997431869499946,frequency,gyroscope,none
+541,"tBodyAccJerk-arCoeff()-X,2",0.00013560992861815613,0.9975674794285642,time,body acc,X
+542,"fBodyAccJerk-bandsEnergy()-49,56_2",0.00013434725513137828,0.9977018266836956,frequency,body acc,Y
+543,"fBodyAccJerk-bandsEnergy()-33,40_2",0.00013392298356729632,0.9978357496672629,frequency,body acc,Y
+544,"fBodyAcc-bandsEnergy()-49,64",0.00013390303606453357,0.9979696527033274,frequency,body acc,X
+545,fBodyBodyAccJerkMag-min(),0.00013375410558249745,0.9981034068089099,frequency,body acc,none
+546,"fBodyAcc-bandsEnergy()-33,48_2",0.00013201534860681673,0.9982354221575167,frequency,body acc,Y
+547,"tBodyGyro-arCoeff()-X,2",0.0001298454655668346,0.9983652676230835,time,gyroscope,X
+548,"angle(tBodyAccJerkMean),gravityMean)",0.00012778393682112205,0.9984930515599046,angle,angle,none
+549,"fBodyAccJerk-bandsEnergy()-49,64",0.00012694878065586224,0.9986200003405605,frequency,body acc,X
+550,"tBodyAcc-arCoeff()-Y,3",0.0001249558981190166,0.9987449562386795,time,body acc,Y
+551,fBodyAcc-min()-Z,0.00012459513716406144,0.9988695513758435,frequency,body acc,Z
+552,fBodyAcc-maxInds-Z,0.00012025675372527064,0.9989898081295688,frequency,body acc,Z
+553,fBodyAccJerk-min()-Z,0.00011870618098198989,0.9991085143105508,frequency,body acc,Z
+554,fBodyBodyGyroJerkMag-min(),0.00011667080350463934,0.9992251851140554,frequency,gyroscope,none
+555,tBodyAccJerk-mean()-Y,0.0001162372682149311,0.9993414223822704,time,body acc,Y
+556,"fBodyAccJerk-bandsEnergy()-57,64",0.00011378643122081563,0.9994552088134913,frequency,body acc,X
+557,"fBodyAcc-bandsEnergy()-57,64_3",0.000111595684160772,0.999566804497652,frequency,body acc,Z
+558,"fBodyAccJerk-bandsEnergy()-57,64_3",0.00011144164404956172,0.9996782461417015,frequency,body acc,Z
+559,"fBodyAcc-bandsEnergy()-57,64_2",0.00011044627884083243,0.9997886924205424,frequency,body acc,Y
+560,fBodyGyro-min()-Y,0.00011009943036570507,0.999898791850908,frequency,gyroscope,Y
+561,fBodyAccJerk-min()-X,0.0001012081490920049,1.0,frequency,body acc,X

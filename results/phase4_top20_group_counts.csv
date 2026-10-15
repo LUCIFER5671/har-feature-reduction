@@ -1,0 +1,15 @@
+dimension,group,count,share_of_top20_importance
+domain,time,13,0.7168679696487801
+domain,frequency,4,0.11512141169308357
+domain,angle,3,0.16801061865813643
+signal,gravity acc,11,0.6624801451880526
+signal,body acc,6,0.16950923615381092
+signal,angle,3,0.16801061865813643
+signal,gyroscope,0,0.0
+axis,X,9,0.5268599469780757
+axis,Y,5,0.2965422760681031
+axis,Z,4,0.12220995249309398
+axis,none,2,0.054387824460727346
+axis,"X,Y",0,0.0
+axis,"Y,Z",0,0.0
+axis,"X,Z",0,0.0

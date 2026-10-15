@@ -3,4 +3,4 @@ quantity,value,cumulative_variance_at_k
 k_90pct,61,0.9003438949584961
 k_95pct,100,0.9507295489311218
 n_components_total,561,1.0
-pca_fit_seconds,0.181,
+pca_fit_seconds,0.123,
