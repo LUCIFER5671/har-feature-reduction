@@ -1,0 +1,4 @@
+cutoff_n_components,elbow_k,cumulative_variance_at_k,official
+30,3,0.6015506,False
+50,3,0.6015506,True
+100,3,0.6015506,False

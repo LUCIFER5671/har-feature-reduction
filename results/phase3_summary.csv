@@ -1,0 +1,4 @@
+method,space,n_clusters,noise_pct,silhouette,ari
+K-Means k=2 (silhouette-chosen),561 standardized features,2,0.0,0.4065195620059967,0.3291571846521914
+K-Means k=6 (natural),561 standardized features,6,0.0,0.10560878366231918,0.4310357802985407
+"DBSCAN eps=3.08, min_samples=10",first 3 PCA components,3,2.8643487659881104,0.6146305203437805,0.3271172710452363
